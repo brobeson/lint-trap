@@ -1,0 +1,9 @@
+name: 'Lint Trap'
+description: 'Record lint results as commit comments.'
+inputs:
+  results-file:
+    description: 'The path to JSON file with lintvresults.'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'
