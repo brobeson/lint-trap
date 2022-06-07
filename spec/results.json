@@ -1,0 +1,12 @@
+[
+  {
+    "file": "main.cpp",
+    "line": 4,
+    "message": "Line 4 has an error."
+  },
+  {
+    "file": "main.cpp",
+    "line": 5,
+    "message": "Line 5 has a warning."
+  }
+]
