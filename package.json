@@ -1,4 +1,15 @@
 {
+  "name": "lint-trap",
+  "version": "0.0.0",
+  "description": "Report lint in commit comments.",
+  "homepage": "https://github.com/brobeson/lint-trap",
+  "keywords": [ "lint", "comments" ],
+  "author": "brobeson",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brobeson/lint-trap.git"
+  },
+  "main": "index.js",
   "dependencies": {
     "jasmine": "^4.1.0"
   },
