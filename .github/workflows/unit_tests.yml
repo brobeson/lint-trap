@@ -13,8 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: npm install jasmine
-      - run: npx jasmine init
-      - run: cat spec/support/jasmine.json
+      #- run: npx jasmine init
   markdown_lint:
     name: Markdown Lint
     runs-on: ubuntu-latest
