@@ -13,7 +13,7 @@
 //  core.setFailed(error.message);
 //}
 
-function load_results(results_file) {
+export function load_results(results_file) {
   const data = require(results_file)
   return data
 }
