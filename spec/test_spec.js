@@ -1,4 +1,4 @@
-const idx = require("index.js")
+const idx = require("./index.js")
 
 describe("A suite", function() {
   it("contains spec with an expectation", function() {
